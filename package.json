@@ -1,0 +1,23 @@
+{
+  "name": "workspaces",
+  "author": "Calvin Maighan",
+  "version": "1.0.0",
+  "scripts": {
+    "clear-cache": "",
+    "install": "",
+    "native": "",
+    "android": "",
+    "ios": "",
+    "web": ""
+  },
+  "dependencies": {
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "private": true,
+  "workspaces": [
+    "./apps/libs/*"
+  ]
+}

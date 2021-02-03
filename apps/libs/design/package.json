@@ -1,0 +1,9 @@
+{
+  "name": "@libs/design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "styled-components": "^5.2.1"
+  }
+}

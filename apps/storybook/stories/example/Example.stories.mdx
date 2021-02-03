@@ -1,0 +1,24 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { text } from '@storybook/addon-knobs'
+import { action } from '@storybook/addon-actions';
+
+<Meta title="Examples"/>
+
+# Example Stories
+
+<Canvas>
+    <Story name="KnobsExample">
+        <div>
+            <h1>{text('h1 text', 'big header')}</h1>
+            <h6>{text('h6 text', 'small header')}</h6>
+        </div>
+    </Story>
+</Canvas>
+
+<Canvas>
+    <Story name="ActionsExample">
+        <div>
+            <button onClick={action('log me 2')}>Click to log in "Actions" panel</button>
+        </div>
+    </Story>
+</Canvas>
